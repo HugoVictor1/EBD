@@ -1,11 +1,13 @@
-{  margin: 0;
+/* CSS Document */
+
+*{  margin: 0;
   padding: 0;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../images/body_bg_q.jpg);
+  background-image: url(./body_bg_q.jpg);
 }
 
 #container {
@@ -16,7 +18,7 @@ body {
 }
 
 #header {
-  background-image: url(../images/body_bg_q.jpg);
+  background-image: url(./body_bg_q.jpg);
   height: 200px;
 }
 
@@ -536,7 +538,7 @@ blockquote.style1 span {
 }
 
 .lista ul li {
-  background-image: url(../images/estrela2.png);
+  background-image: url(./estrela2.png);
   background-repeat: no-repeat;
   background-position: 0.2em;
   padding-left: 1.6em;
@@ -562,7 +564,7 @@ blockquote.style1 span {
 
 #footer {
   clear: both;
-  background-image: url(../images/body_bg_q.jpg);
+  background-image: url(./body_bg_q.jpg);
   height: 45px;
   background-color: black;
 }
@@ -605,7 +607,7 @@ blockquote.style1 span {
 #textvers {
   width: 278px;
   height: 178px;
-  background-image: url(../images/bg.jpg);
+  background-image: url(./bg.jpg);
   margin: 0px;
   border: 1px solid #cccc99;
 }
@@ -623,7 +625,7 @@ blockquote.style1 span {
 
 #boxsearch {
   float: left;
-  background-image: url(../images/bg.jpg);
+  background-image: url(./bg.jpg);
   margin-top: 15px;
   margin-left: 25px;
   width: 278px;
@@ -657,7 +659,7 @@ blockquote.style1 span {
 
 #boxpub {
   float: left;
-  background-image: url(../images/bg.jpg);
+  background-image: url(./bg.jpg);
   margin-top: 15px;
   margin-left: 25px;
   padding-bottom: 10px;
@@ -692,7 +694,7 @@ blockquote.style1 span {
 
 #boxmarcadores {
   float: left;
-  background-image: url(../images/bg.jpg);
+  background-image: url(./bg.jpg);
   margin-top: 15px;
   margin-left: 25px;
   padding-bottom: 10px;
@@ -727,7 +729,7 @@ blockquote.style1 span {
 
 #boxstat2 {
   float: left;
-  background-image: url(../images/bg.jpg);
+  background-image: url(./bg.jpg);
   margin-top: 15px;
   margin-left: 25px;
   padding-bottom: 10px;
@@ -762,7 +764,7 @@ blockquote.style1 span {
 
 #boxparceiros {
   float: left;
-  background-image: url(../images/bg.jpg);
+  background-image: url(./bg.jpg);
   margin-top: 15px;
   margin-left: 25px;
   padding-bottom: 10px;
@@ -797,7 +799,7 @@ blockquote.style1 span {
 
 #boxcoment {
   float: left;
-  background-image: url(../images/bg.jpg);
+  background-image: url(./bg.jpg);
   margin-top: 15px;
   margin-left: 25px;
   width: 278px;
@@ -831,7 +833,7 @@ blockquote.style1 span {
 
 #boxmarquee {
   float: left;
-  background-image: url(../images/bg.jpg);
+  background-image: url(./bg.jpg);
   margin-top: 15px;
   margin-left: 25px;
   width: 278px;
@@ -867,7 +869,7 @@ blockquote.style1 span {
   float: left;
   width: 930px;
   height: 83px;
-  background-image: url(../images/right_foot_2.jpg);
+  background-image: url(./right_foot_2.jpg);
   background-repeat: no-repeat;
   background-position: top;
   margin-top: 20px;
@@ -890,7 +892,7 @@ blockquote.style1 span {
 
 #boxstat {
   float: left;
-  background-image: url(../images/bg.jpg);
+  background-image: url(./bg.jpg);
   margin-top: 15px;
   margin-left: 25px;
   width: 278px;
@@ -919,7 +921,7 @@ blockquote.style1 span {
 }
 
 .lista2 ul li {
-  background-image: url(../images/estrela2.png);
+  background-image: url(./estrela2.png);
   background-repeat: no-repeat;
   background-position: 0.3em;
   padding-left: 1.6em;
@@ -1043,7 +1045,7 @@ a:active {
 }
 
 .mlista ul li {
-  background-image: url(../images/bl_002.gif);
+  background-image: url(./bl_002.gif);
   background-repeat: no-repeat;
   background-position: 0.2em;
   padding-left: 1.6em;
@@ -1088,7 +1090,7 @@ div.sum {
 
 #boxrc {
   float: left;
-  background-image: url(../images/bg.jpg);
+  background-image: url(./bg.jpg);
   margin-top: 15px;
   margin-left: 25px;
   padding-bottom: 10px;
