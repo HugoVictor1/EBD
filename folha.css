@@ -199,10 +199,26 @@ h2 {
 	margin-left: 10px;
 }
 
-/* CSS media query dentro de um stylesheet */
+.texto {
+	text-align: center;
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* CSS media query dentro de um stylesheet *//*
 @media (max-width: 600px) {
-	.grid-1 {
+
+	.grid {
 		display: block;
-		padding: 10px;
 	}
-  }
+
+	.grid-1 {
+		grid: 350px / 1fr;
+	}
+  }*/
