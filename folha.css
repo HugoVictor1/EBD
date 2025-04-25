@@ -5,27 +5,22 @@
 
 .grid-1 {
 	grid: 350px / 1fr 1fr;
-	padding: 10px;
 }
 
 .grid-2 {
 	grid: 350px / 1fr 1fr;
-	padding: 10px;
 }
 
 .grid-3 {
 	grid: 350px / 1fr 1fr;
-	padding: 10px;
 }
 
 .grid-4 {
 	grid: 350px / 1fr 1fr;
-	padding: 10px;
 }
 
 .grid-5 {
 	grid: 350px / 1fr 1fr;
-	padding: 10px;
 }
 
 .logo {
@@ -99,7 +94,8 @@ body > div > img {
 	color: white;
 	background-position: center;
 	background-size: cover;
-	margin-right: 3px;
+	transition-duration: 0.8s;
+	margin: 5px;
 }
 
 .item2{
@@ -107,8 +103,8 @@ body > div > img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	transition-duration: 4s;
-	margin-left: 3px;
+	transition-duration: 0.8s;
+	margin: 5px;
 }
 
 .item3{
@@ -116,8 +112,8 @@ body > div > img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	transition-duration: 4s;
-	margin-right: 3px;
+	transition-duration: 0.8s;
+	margin: 5px;
 }
 
 .item1:hover
@@ -128,9 +124,11 @@ body > div > img {
 , .item6:hover
 , .item7:hover
 , .item8:hover
-, .item9:hover {
+, .item9:hover
+, .item10:hover {
 
-	background-size: cover;
+	margin: 0 0 0 0;
+	
 }
 
 .item4{
@@ -138,8 +136,9 @@ body > div > img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	transition-duration: 0.8s;
 	color: white;
-	margin-left: 3px;
+	margin: 5px;
 }
 
 .item5{
@@ -147,8 +146,9 @@ body > div > img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	transition-duration: 0.8s;
 	color: white;
-	margin-right: 3px;
+	margin: 5px;
 }
 
 .item6{
@@ -156,43 +156,48 @@ body > div > img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	transition-duration: 0.8s;
 	color: white;
-	margin-left: 3px;
+	margin: 5px;
 }
 
 .item7{
 	background-image: url(img7.png);
 	background-repeat: no-repeat;
 	background-position: center;
+	transition-duration: 0.8s;
 	background-size: cover;
-	margin-right: 3px;
+	margin: 5px;
 }
 
 .item8{
 	background-image: url(img8.png);
 	background-repeat: no-repeat;
 	background-position: center;
+	transition-duration: 0.8s;
 	background-size: cover;
 	color: white;
-	margin-left: 3px;
+	margin: 5px;
 }
 
 .item9{
 	background-image: url(img9.png);
 	background-repeat: no-repeat;
 	background-position: center;
+	transition-duration: 0.8s;
 	background-size: cover;
 	color: white;
-	margin-right: 3px;
+	margin: 5px;
 }
 
 .item10{
 	background-image: url(img10.png);
 	background-repeat: no-repeat;
 	background-position: center;
+	transition-duration: 0.8s;
 	background-size: cover;
 	color: white;
-	margin-left: 3px;
+	margin: 5px;
 }
 
 h2 {
@@ -201,24 +206,17 @@ h2 {
 
 .texto {
 	text-align: center;
-	font-size: 16px;
 	font-family: sans-serif;
-	padding: 10px;
 }
 
 a {
 	text-decoration: none;
 	color: black;
+	
 }
 
-/* CSS media query dentro de um stylesheet *//*
+/* CSS media query dentro de um stylesheet */
 @media (max-width: 600px) {
 
-	.grid {
-		display: block;
-	}
-
-	.grid-1 {
-		grid: 350px / 1fr;
-	}
-  }*/
+	
+  }
