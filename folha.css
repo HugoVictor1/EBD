@@ -52,13 +52,12 @@
 	margin: 5px;
 	background: tomato;
 	text-align: center;
-	font-size: 1.5em;
 }
 
 .grid {
 	max-width: 500px;
 	margin: 0 auto;
-	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,0.1);
 }
 
 h1 {
@@ -207,6 +206,7 @@ h2 {
 .texto {
 	text-align: center;
 	font-family: sans-serif;
+	padding: 5px;
 }
 
 a {
