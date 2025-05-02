@@ -23,6 +23,14 @@
 	grid: 350px / 1fr 1fr;
 }
 
+.grid-6 {
+	grid: 350px / 1fr 1fr;
+}
+
+.grid-7 {
+	grid: 350px / 1fr 1fr;
+}
+
 .logo {
 	grid-area: logo;
 }
@@ -124,7 +132,10 @@ body > div > img {
 , .item7:hover
 , .item8:hover
 , .item9:hover
-, .item10:hover {
+, .item10:hover
+, .item11:hover
+, .item12:hover
+, .item13:hover {
 
 	margin: 0 0 0 0;
 	
@@ -191,6 +202,36 @@ body > div > img {
 
 .item10{
 	background-image: url(img10.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	transition-duration: 0.8s;
+	background-size: cover;
+	color: white;
+	margin: 5px;
+}
+
+.item11{
+	background-image: url(img11.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	transition-duration: 0.8s;
+	background-size: cover;
+	color: white;
+	margin: 5px;
+}
+
+.item12{
+	background-image: url(img12.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	transition-duration: 0.8s;
+	background-size: cover;
+	color: white;
+	margin: 5px;
+}
+
+.item13{
+	background-image: url(img13.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	transition-duration: 0.8s;
